@@ -1,7 +1,7 @@
 {
   "name": "npm-git-dependency",
   "scripts": {
-    "prepack": "rimraf test.txt"
+    "prepack": "echo \"Prepack script run!\""
   },
   "devDependencies": {
     "rimraf": "^2.6.3"
